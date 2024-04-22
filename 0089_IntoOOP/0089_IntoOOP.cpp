@@ -30,6 +30,31 @@ class Matakuliah {
 			cin >> sks;
 		}
 		void output() {
-
+			cout << "Kode MK: " << kodeMk << endl;
+			cout << "Nama MK: " << namaMk << endl;
+			cout << "SKS : " << sks << endl;
 		}
 };
+int main() {
+	Mahasiswa mhs;
+	Matakuliah Mk;
+
+	mhs.nama = "Budi";
+	mhs.umur = 20;
+	mhs.jurusan = "Teknik Informatika";
+	mhs.output();
+
+	Mk.input();
+	Mk.output();
+
+	return 0;
+}
+
+
+#include <iostream>
+using namespace std;
+
+class bangunDatar {
+
+};
+
